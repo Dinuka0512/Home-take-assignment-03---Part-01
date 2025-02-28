@@ -1,0 +1,73 @@
+/**
+ * --------------------------------------------
+ * Author: Heshan Dinuka Lakmal
+ * GitHub: https://github.com/Dinuka0512
+ * --------------------------------------------
+ * Created: 2/22/2025$ 10:04 AM$
+ * Project: Html Projects$
+ * --------------------------------------------
+ **/
+
+body{
+    background-color: white;
+}
+
+body>div{
+    position: absolute;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transition-duration: 1.15ms;
+}
+
+body>div:nth-child(1){
+    position: fixed;
+    height: 60vh;
+    background-color: #343434;
+}
+
+body>div:nth-child(2){
+    position: fixed;
+    height: 55vh;
+    background-color: #8d0000;
+}
+
+body>div:nth-child(3){
+    position: fixed;
+    height: 50vh;
+    background-color: white;
+}
+
+.textContainer{
+    color: white;
+    background-color: #79006f;
+    font-size: 5vh;
+    width: 50vh;
+    aspect-ratio: 1/1;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+body>div:nth-child(5){
+    margin-top: 100vh;
+    background-color: #008080;
+
+}
+
+body>div:nth-child(6){
+    font-size: 6vh;
+    margin-top: 180vh;
+    background-color: #e35300;
+}
+
+body>div:nth-child(7){
+    margin-top: 150vh;
+}
+
+
