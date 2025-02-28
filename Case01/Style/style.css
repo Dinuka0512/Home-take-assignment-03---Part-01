@@ -1,0 +1,140 @@
+/**
+ * --------------------------------------------
+ * Author: Heshan Dinuka Lakmal
+ * GitHub: https://github.com/Dinuka0512
+ * --------------------------------------------
+ * Created: 2/22/2025$ 10:04 AM$
+ * Project: Html Projects$
+ * --------------------------------------------
+ **/
+body{
+    overflow: hidden;
+}
+
+body>div{
+    background-color: #000000;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+body>div>div{
+    position: absolute;
+    width: 50vw;
+    height: 50vh;
+}
+
+body>div>div:nth-child(1){
+    left: 0;
+    background-color: #ff0000;
+}
+
+body>div>div:nth-child(2){
+    right: 0;
+    background-color: #35c200;
+}
+
+body>div>div:nth-child(3){
+    bottom: 0;
+    left: 0;
+    background-color: #ffcc00;
+}
+
+body>div>div:nth-child(4){
+    bottom: 0;
+    right: 0;
+    background-color: #ff0bc4;
+}
+
+body>div>div>div{
+    aspect-ratio: 1/1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: white;
+}
+
+body>div>div>div:first-child{
+
+    width: 100px;
+    border-radius: 50px;
+}
+
+body>div>div>div:nth-child(2){
+    background-color: red;
+    width: 50px;
+}
+
+body>div>div:nth-child(5){
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+body>div>div:nth-child(6){
+    background-color: red;
+    width: 75px;
+    height: 75px;
+    border-radius: 80px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.corners{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+
+body>div>div:nth-child(7){
+    top: 0;
+    border-bottom-right-radius: 100px;
+}
+
+body>div>div:nth-child(8){
+    right: 0;
+    border-bottom-left-radius: 100px;
+}
+
+body>div>div:nth-child(9){
+    right: 0;
+    bottom: 0;
+    border-top-left-radius: 100px;
+}
+
+body>div>div:nth-child(10){
+    left: 0;
+    bottom: 0;
+    border-top-right-radius: 100px;
+}
+
+.middle{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.vertical{
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+body>div>div:nth-child(11){
+    top: -100px;
+}
+body>div>div:nth-child(12){
+    bottom: -100px;
+}
